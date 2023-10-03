@@ -6,4 +6,5 @@ public class BrandContext : DbContext{
     {
         
     }
+    public DbSet<Barrier>Brands { get; set; }
 }

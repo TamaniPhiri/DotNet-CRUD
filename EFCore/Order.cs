@@ -6,5 +6,8 @@ namespace dotNetOrigins.EFCore;
 [Table("order")]
 public class Order
 {
-    [Key, Required] public int id { get; set; };
+    [Key, Required] 
+    public int id { get; set; }
+    
+    public string name { get; set; }
 }

@@ -9,10 +9,10 @@ public class EF_DataContext:DbContext
         
     }
 
-    public override void onModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.UseSerialColumns();
-    }
+    // public override void onModelCreating(ModelBuilder modelBuilder)
+    // {
+    //     modelBuilder.UseSerialColumns();
+    // }
 
     public DbSet<Order> Orders { get; set; }
     public DbSet<Product> Products { get; set; }

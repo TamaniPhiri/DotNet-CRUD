@@ -13,7 +13,7 @@ public class Product
 
     public string brand { get; set; } = string.Empty;
     
-    public int siza { get; set; }
+    public int size { get; set; }
     
     public decimal price { get; set; }
 }

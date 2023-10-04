@@ -9,9 +9,9 @@ public class Order
     [Key, Required] 
     public int id { get; set; }
     
-    public string name { get; set; }
+    public int product_id { get; set; }
     
-    public string brand { get; set; }
+    public virtual Product Product { get; set; }
     
     public int size { get; set; }
     

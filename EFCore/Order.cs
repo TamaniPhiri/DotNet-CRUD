@@ -12,4 +12,6 @@ public class Order
     public string name { get; set; }
     
     public string brand { get; set; }
+    
+    public int size { get; set; }
 }

@@ -14,4 +14,6 @@ public class Order
     public string brand { get; set; }
     
     public int size { get; set; }
+    
+    public decimal price { get; set; }
 }

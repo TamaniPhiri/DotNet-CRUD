@@ -12,8 +12,8 @@ public class Order
     public int product_id { get; set; }
     
     public virtual Product Product { get; set; }
-    
-    public string name { get; set; }
+
+    public string name { get; set; } = string.Empty;
     
     public string address { get; set; }
     

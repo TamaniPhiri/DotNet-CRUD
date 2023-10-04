@@ -13,4 +13,6 @@ public class EF_DataContext:DbContext
     {
         modelBuilder.UseSerialColumns();
     }
+
+    public DbSet<Order> Orders { get; set; }
 }

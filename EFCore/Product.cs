@@ -8,8 +8,8 @@ public class Product
 {
     [Key,Required]
     public int id { get; set; }
-    
-    public string name { get; set; }
+
+    public string name { get; set; } = string.Empty;
     
     public string brand { get; set; }
     

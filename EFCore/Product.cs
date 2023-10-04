@@ -10,8 +10,8 @@ public class Product
     public int id { get; set; }
 
     public string name { get; set; } = string.Empty;
-    
-    public string brand { get; set; }
+
+    public string brand { get; set; } = string.Empty;
     
     public int siza { get; set; }
     
